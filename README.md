@@ -30,7 +30,7 @@ Ideal para automatizar el encendido/apagado del enchufe mediante el **Programado
 2. Instala dependencias:
    ```bash
    pip install -r requirements.txt
-3. Cambia el DEVICE_ID, IP_ADDRESS y LOCAL_KEY según tu dispositivo.
+3. Renombra el archivo `.env.example` como `.env` y cambia el DEVICE_ID, IP_ADDRESS y LOCAL_KEY según tu dispositivo.
 4. Crear una tarea programada con el "Programador de tareas" de windows, que lance el script cuando te convenga. Mejor si usas un .bat
 5. Para probar mis tareas:
    - Cambiar el usuario (que viene en un ID raro llamado SID) por el tuyo.
